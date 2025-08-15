@@ -8,10 +8,10 @@ try {
 } catch(e) {
     users = [];
 }
-
 let firstUser = users.length > 0 ? users[0] : { name: "Guest" };
 let name = firstUser.name;
 
+nametexts.innerHTML = `Welcome, ${name}! Noa is ready to assist you.`;
 
 let qaData = [];
 fetch("data.json")
