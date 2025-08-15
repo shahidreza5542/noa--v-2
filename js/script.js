@@ -2,13 +2,8 @@ const btn = document.querySelector('.talk');
 const content = document.querySelector('.content');
 const nametexts = document.querySelector('.nameText');
 
-let users = [];
-try {
-    users = JSON.parse(localStorage.getItem('users')) || [];
-} catch(e) {
-    users = [];
-}
-let firstUser = users.length > 0 ? users[0] : { name: "Guest" };
+let users = JSON.parse(localStorage.getItem('users') || "[]");
+let firstUser = users[0] || { name: "Guest" };
 let name = firstUser.name;
 
 nametexts.innerHTML = `Welcome, ${name}! Noa is ready to assist you.`;
