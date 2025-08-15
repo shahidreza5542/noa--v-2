@@ -138,3 +138,10 @@
 #noa3 {
   color: #5AD2FF;
 }
+
+footer .footer-box {
+  margin-top: 30px;
+  background-color: #aed0d0;
+  width: 100%;
+  height: 50px;
+}
