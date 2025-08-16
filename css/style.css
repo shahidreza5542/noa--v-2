@@ -8,12 +8,12 @@
 }
 
 body {
-  background: #000; /* pure black */
-  color: #aed0d0; /* readable text */
+  background: #000; 
+  color: #aed0d0; 
   overflow-x: hidden;
 }
 
-/* Main container */
+
 .main {
   min-height: 100vh;
   width: 100%;
@@ -24,7 +24,7 @@ body {
   padding: 40px 20px;
 }
 
-/* Image & Title */
+
 .main .image-container {
   text-align: center;
   margin-bottom: 40px;
@@ -74,7 +74,7 @@ body {
   line-height: 1.5;
 }
 
-/* Name Text */
+
 .main .image-container .nameText {
   font-size: 1.2rem;
   font-weight: 700;
@@ -82,7 +82,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Input box */
+
 .main .input {
   display: flex;
   align-items: center;
@@ -127,7 +127,7 @@ body {
   box-shadow: 0 5px 15px rgba(0,255,180,0.5);
 }
 
-/* Footer */
+
 footer {
   margin-top: 30px;
   border-top: 1px solid #00f0ff;
@@ -171,6 +171,7 @@ footer .footer-box .box3 p{
   text-decoration: none;
   margin-right: 5px;
   transition: color 0.3s;
+  margin-top: 15px;
 }
 
 footer .underbox {
@@ -191,7 +192,7 @@ footer .copy {
   color: #00f0ff;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1024px) {
   .main .image-container h1 { font-size: 2.5rem; }
   .main .image-container p { font-size: 0.95rem; }
