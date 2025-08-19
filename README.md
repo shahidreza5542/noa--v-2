@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # NOA v2
 
 Welcome to **NOA v2**!  
