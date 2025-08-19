@@ -79,4 +79,3 @@ For questions or feedback, please open an issue on GitHub.
 ---
 
 **Made with ❤️ by shahidreza5542**
->>>>>>> 44ce5b33ee299a5f4214d281472dfb8d9e521a9f
